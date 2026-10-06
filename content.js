@@ -18,7 +18,7 @@ const MAX_TEXT_LENGTH = 102400;
 
 const SMALL_WORDS = {
     en: new Set(["a", "an", "the", "and", "but", "or", "for", "nor", "so", "yet", "as", "at", "by", "in", "of", "on", "to", "up", "vs", "via", "if", "is", "it", "be", "no"]),
-    pt: new Set(["a", "o", "as", "os", "um", "uma", "uns", "umas", "ao", "aos", "à", "às", "de", "da", "do", "das", "dos", "em", "na", "no", "nas", "nos", "por", "para", "com", "sem", "sob", "sobre", "entre", "até", "após", "ante", "contra", "dum", "duma", "num", "numa", "pelo", "pela", "pelos", "pelas", "e", "ou", "mas", "nem", "que", "se", "pois"]),
+    pt: new Set(["a", "o", "as", "os", "um", "uma", "uns", "umas", "ao", "aos", "à", "às", "de", "da", "do", "das", "dos", "em", "na", "no", "nas", "nos", "por", "para", "pra", "pro", "pras", "pros", "com", "sem", "sob", "sobre", "entre", "até", "após", "ante", "contra", "dum", "duma", "num", "numa", "pelo", "pela", "pelos", "pelas", "e", "ou", "mas", "nem", "que", "se", "pois"]),
     es: new Set(["el", "la", "los", "las", "un", "una", "unos", "unas", "a", "al", "de", "del", "en", "con", "sin", "por", "para", "entre", "hacia", "hasta", "desde", "sobre", "bajo", "ante", "y", "e", "o", "u", "ni", "que", "si", "pero", "mas"]),
     fr: new Set(["le", "la", "les", "un", "une", "des", "du", "de", "l", "à", "au", "aux", "en", "par", "pour", "sur", "sous", "avec", "sans", "chez", "entre", "vers", "et", "ou", "ni", "mais", "que", "si"]),
     de: new Set(["der", "die", "das", "den", "dem", "des", "ein", "eine", "einer", "einem", "einen", "an", "auf", "aus", "bei", "in", "im", "mit", "nach", "von", "vom", "vor", "zu", "zur", "zum", "für", "über", "unter", "durch", "gegen", "ohne", "und", "oder", "aber", "denn", "wenn", "als", "ob"]),
